@@ -5,7 +5,8 @@ body {
 }
 
 .navbar {
-    background-color: #1a1a1a;
+    background-color: transparent;
+    
 }
 
 .navbar .container-fluid {
@@ -33,4 +34,13 @@ body {
     height: 600px;
     object-fit: cover;
     border-radius: 12px;
+}
+.btn{
+    text-align: right;
+    display: block;
+margin-right: 100px
+}
+#menuPrincipal {
+    display: flex !important;
+    align-items: center;
 }
